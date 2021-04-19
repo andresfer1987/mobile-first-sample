@@ -247,9 +247,12 @@ header img {
     line-height: 18px;
     color: #808080;
 }
+.list-container {
+    padding-bottom: 10px;
+}
 .list {
     list-style: none;
-    height: 892px;
+    height: auto;
     width: 100%;
     padding: 0 20px;
 }
@@ -305,4 +308,21 @@ header img {
     height: 2.5rem;
     width: 3rem;
     background-repeat: no-repeat;
+}
+.image-section {
+    height: 50vh;
+    min-width: 320px;
+    width: 100%;
+    background-image: url('./assets/imgs/bitcoinbaby2x.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.image-section p {
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+    padding-top: 44px;
 }
