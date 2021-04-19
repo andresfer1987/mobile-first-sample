@@ -219,3 +219,90 @@ header img {
     line-height: 15px;
     text-align: center;
 }
+.benefits {    
+    height: auto;
+    background: var(--warm-black);
+    min-width: 320px;
+}
+.text-container {
+    width: 100%;
+    height: 190px;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-right: 17px;
+    padding-left: 15px;
+}
+.text-container h4 {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 26px;
+    padding-bottom: 2rem;
+    color: #fff;
+}
+.text-container p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #808080;
+}
+.list {
+    list-style: none;
+    height: 892px;
+    width: 100%;
+    padding: 0 20px;
+}
+.list .list__item { 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 152px;
+    border: 1px solid #282623;
+    border-radius: 5px;
+    background: #282623;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
+    margin-bottom: 1rem;
+    padding: 1.2rem 1.5rem;
+}
+.list .list__item .list__title {
+    color:#fff;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.8rem;   
+}
+.list .list__item .list__description {
+    min-width: 252px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+}
+.list .list__item .clock {
+    display: inline-block;
+    background-image: url('./assets/icons/clock.svg');
+    height: 2.5rem;
+    width: 3rem;
+    background-repeat: no-repeat;
+}
+.list .list__item .eye {
+    display: inline-block;
+    background-image: url('./assets/icons/eye.svg');
+    height: 2.5rem;
+    width: 3rem;
+    background-repeat: no-repeat;
+}
+.list .list__item .dolar {
+    display: inline-block;
+    background-image: url('./assets/icons/dollar-sign.svg');
+    height: 2.5rem;
+    width: 3rem;
+    background-repeat: no-repeat;
+}
+.list .list__item .check {
+    display: inline-block;
+    background-image: url('./assets/icons/check-circle.svg');
+    height: 2.5rem;
+    width: 3rem;
+    background-repeat: no-repeat;
+}
