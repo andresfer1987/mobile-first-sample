@@ -326,3 +326,118 @@ header img {
     color: var(--just-white);
     padding-top: 44px;
 }
+.plans {
+    width: 100%;
+    height: auto;
+    padding: 30px 10px;
+    background: var(--off-white);
+}
+.plans__title {
+    width: 100%;    
+    min-width: 288px;
+    height: auto;
+    text-align: center;
+}
+.plans__title h5 { 
+    margin-top: 2rem;
+    margin-bottom: 1.7rem;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--warm-black);
+}
+.plans__title p {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #757575;
+}
+.cards-container{
+    min-width: 288px;
+    height: auto;
+    margin-top: 2rem;
+}
+.card {
+    position: relative;
+    width: 190px;
+    height: 247px;
+    padding: 3.1rem 1rem;
+    margin: 3rem auto;
+    text-align: center;
+    border-radius: 10px;
+    background: var(--just-white);
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.16);
+}
+.card__float-button {
+    position:absolute;
+    top:-10px;
+    left: calc(50% - 50px);
+    height: 31px;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 15px;
+    color: var(--just-white);
+    padding: .8rem 1rem;
+    background-color: var(--bitcoin-orange);
+    border-radius: 7px;
+}
+.card__title {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    color: var(--black);
+}
+.card__price {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    font-family: 'Inter',sans-serif ;
+
+}
+.card__price .currency{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+}
+.card__price .value{
+    font-size: 52px;
+    font-weight: bold;
+    line-height: 63px;
+}
+.card__description {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;    
+    color: #757575;
+}
+.card__button {
+    display: inline-block;
+    width: 151px;
+    height: 48px;
+    margin-top: 2rem;
+    border:2px solid var(--bitcoin-orange); 
+    border-radius: 5px;   
+}
+.button-container {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.card__button  p {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.8rem;
+    margin-right: 1rem;
+}
+.card__button span {
+    display: inline-block;
+    width: 15px;
+    height: 20px;
+    background-image: url('./assets/icons/arrow-right.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
