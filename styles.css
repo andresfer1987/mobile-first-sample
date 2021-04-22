@@ -100,7 +100,7 @@ header img {
 .exchange {
     background: var(--off-white);
     min-width: 320px;
-    height: 738px;
+    height: 690px;
 }
 .exchange__image { 
  background-image: url('./assets/imgs/bitcoin.svg');
@@ -356,13 +356,14 @@ header img {
     color: #757575;
 }
 .cards-container{
-    min-width: 288px;
+    min-width: 320px;
     height: auto;
     margin-top: 2rem;
 }
 .card {
     position: relative;
-    width: 190px;    
+    min-width: 190px;  
+    max-width: 200px;  
     scroll-snap-align: center;
     height: 247px;
     padding: 3.1rem 1rem;
