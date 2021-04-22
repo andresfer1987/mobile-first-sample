@@ -226,7 +226,7 @@ header img {
 }
 .text-container {
     width: 100%;
-    height: 190px;    
+    height: 170px;    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -261,10 +261,12 @@ header img {
     flex-direction: column;
     justify-content: space-around;
     height: 152px;
+    max-width: 288px;
     border: 1px solid #282623;
     border-radius: 5px;
     background: #282623;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
+    margin: 0 auto ;
     margin-bottom: 1rem;
     padding: 1.2rem 1.5rem;
 }
@@ -328,6 +330,7 @@ header img {
 }
 .plans {
     width: 100%;
+    min-width: 320px;
     height: auto;
     padding: 30px 10px;
     background: var(--off-white);
@@ -359,10 +362,11 @@ header img {
 }
 .card {
     position: relative;
-    width: 190px;
+    width: 190px;    
+    scroll-snap-align: center;
     height: 247px;
     padding: 3.1rem 1rem;
-    margin: 3rem auto;
+    margin: 3rem 10px;
     text-align: center;
     border-radius: 10px;
     background: var(--just-white);
@@ -440,4 +444,34 @@ header img {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+.cards-container {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x proximity;
+}
+footer{
+    display: flex;
+    min-width: 320px;
+    width: 100%;
+    height: 150px;
+    background-color: var(--bitcoin-orange);
+}
+footer section {
+    display: flex;    
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.left ul {
+    list-style: none;   
+}
+.left ul li{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;  
+}
+.left ul li a {
+    text-decoration: none;
+    color: #fff;
 }
