@@ -1,0 +1,6 @@
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 863px;
+    margin: 0 auto;
+}

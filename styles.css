@@ -261,7 +261,8 @@ header img {
     flex-direction: column;
     justify-content: space-around;
     height: 152px;
-    max-width: 288px;
+    min-width: 288px;
+    max-width: 320px;
     border: 1px solid #282623;
     border-radius: 5px;
     background: #282623;
@@ -357,13 +358,14 @@ header img {
 }
 .cards-container{
     min-width: 320px;
+    max-width: 863px;
     height: auto;
     margin-top: 2rem;
 }
 .card {
     position: relative;
     min-width: 190px;  
-    max-width: 200px;  
+    max-width: 300px;  
     scroll-snap-align: center;
     height: 247px;
     padding: 3.1rem 1rem;
